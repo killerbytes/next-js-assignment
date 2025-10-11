@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Disclaimer: It's been a long time since I last used NextJS. I did a little research before starting development
+Time Spent: around 5 hours
+
+## Features
+
+- story list page - client side rendering for instant filtering, sortable score/karma
+- story detail - server side rendering, fallback to not-found page if story not found
+- light/dark theme
+- API services for DRY pattern
+- /api/story route to hide external API endpoint
+- Show loading state on page load
+- Using SCSS best practices
+
+## 3rd party libraries
+
+- axios - xhr request
+- lucide-react - for icons
+- react-loading-skeleton - for loading state
+- react-timeago - for date/time formatting
 
 ## Getting Started
 
@@ -34,3 +52,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# next-js-assignment
