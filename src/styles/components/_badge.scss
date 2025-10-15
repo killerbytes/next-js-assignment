@@ -1,0 +1,9 @@
+@use "../abstracts" as *;
+
+.badge {
+  color: $primary-color;
+  background: $primary-foreground;
+  border: 1px solid $border-color;
+  padding: 0.15rem 0.5rem;
+  line-height: 1rem;
+}

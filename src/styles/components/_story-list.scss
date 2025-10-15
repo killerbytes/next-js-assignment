@@ -1,0 +1,52 @@
+@use "../abstracts" as *;
+
+.story-list {
+  border-bottom: 1px solid $border-color;
+  ul {
+    list-style: none;
+    padding: 0;
+    img {
+      border: 1px solid $border-color;
+      border-radius: 0.5rem;
+    }
+    li {
+      @extend %px-4;
+      border-top: 1px solid $border-color;
+    }
+    li:hover {
+      background-color: $secondary-color;
+      transition: all 0.2s ease-in-out;
+    }
+    .story-card {
+      width: 100%;
+      display: flex;
+      padding: 0.5rem 0;
+      img {
+        margin-right: 0.5rem;
+      }
+      a {
+        color: $card-foreground;
+        &:visited {
+          color: $muted-foreground;
+        }
+      }
+      .story-content {
+        @extend %flex;
+        @extend %flex-col;
+        @extend %w-full;
+        gap: 0.25rem;
+      }
+      .story-meta {
+        @extend %text-sm;
+        color: $muted-foreground;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .story-bottom {
+        margin-top: auto;
+        @extend %flex;
+      }
+    }
+  }
+}

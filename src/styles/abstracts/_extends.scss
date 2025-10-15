@@ -1,0 +1,59 @@
+@use "variables" as *;
+
+%text-sm {
+  font-size: small;
+}
+
+%text-muted {
+  color: $muted-foreground;
+}
+
+%flex {
+  display: flex;
+}
+%flex-col {
+  flex-direction: column;
+}
+%items-center {
+  align-items: center;
+}
+%justify-center {
+  justify-content: center;
+}
+%gap-1 {
+  gap: 0.25rem;
+}
+%gap-4 {
+  gap: 1rem;
+}
+
+%mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+%ml-auto {
+  margin-left: auto;
+}
+%mr-auto {
+  margin-right: auto;
+}
+
+%w-full {
+  width: 100%;
+}
+%px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+%py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+%relative {
+  position: relative;
+}
+
+%absolute {
+  position: absolute;
+}

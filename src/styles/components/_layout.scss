@@ -1,0 +1,24 @@
+@use "../abstracts/" as *;
+
+header {
+  .logo {
+    svg {
+      margin-right: 0.5rem;
+    }
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  padding: 1rem 0;
+  background-color: $primary-color;
+  color: $primary-foreground;
+  box-shadow: $box-shadow;
+}
+
+footer {
+  background-color: $secondary-color;
+  color: $secondary-foreground;
+  @extend %py-4;
+  border-top: 1px solid $border-color;
+  text-align: center;
+}
